@@ -10,7 +10,7 @@ fn main() {
     let can_access_file = match access_level {
         Access::Admin => true,
         _=> false
-    }
+    };
 
     println!("can access {:?}", can_access_file);
 }
