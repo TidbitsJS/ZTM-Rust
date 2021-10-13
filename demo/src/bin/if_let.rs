@@ -4,7 +4,6 @@ enum Color {
     Green,
 }
 
-
 fn main() {
     let maybe_user = Some("Jerry");
     match maybe_user {
